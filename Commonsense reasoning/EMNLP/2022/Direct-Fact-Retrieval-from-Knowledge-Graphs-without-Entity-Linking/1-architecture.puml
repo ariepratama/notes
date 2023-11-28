@@ -1,0 +1,25 @@
+@startuml
+title Training phase
+start
+group DiFar
+    if (start) then 
+        :Embed triplet;
+        
+    else
+        :Embed input text;
+
+    endif
+
+    :calculate similarity (FAISS);
+
+end group
+
+group Reranking Model
+    :re-ranking;
+end group
+note left
+another LM
+returns similarity score
+end note
+stop
+@enduml
