@@ -29,6 +29,9 @@ $$
 * Datasets used
     * QA
         * SimpleQuestions (Bordes et al. 2015)
+            * https://github.com/davidgolub/SimpleQA/tree/master/datasets/SimpleQuestions
+            * https://huggingface.co/datasets/simple_questions_v2
+            * Format: `Subject-entity [tab] relationship [tab] Object-entity [tab] question`
         * WebQuestionsSP (Berant et al., 2013)
         * Mintaka (Sen et al., 2008)
     * Dialogue
@@ -65,7 +68,7 @@ $$
     * model triplets over KG's graph structures, esp to blend KG's representation with LM's representation, thus generating more effective search space.
     * more languages to be tried.
 
-
+    
 
 ## Sample data
 
