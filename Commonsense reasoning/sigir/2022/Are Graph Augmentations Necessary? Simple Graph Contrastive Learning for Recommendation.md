@@ -1,10 +1,12 @@
 # Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation
 Paper: https://arxiv.org/pdf/2112.08679.pdf
+
 Repo:  https://github.com/Coder-Yu/QRec
+
 Data: 
-    * Douban-Book
-    * Yelp 2018
-    * Amazon-Book
+* Douban-Book
+* Yelp 2018
+* Amazon-Book
 
 ## New terms
 * Contrastive learning (CL). 
